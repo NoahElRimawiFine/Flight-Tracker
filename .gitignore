@@ -5,6 +5,7 @@ __pychache__
 *.pdf
 =======
 __pycache__
+data_to_ignore/
 *.log
 *.out
 *.pdf
