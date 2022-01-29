@@ -1,6 +1,9 @@
 from api import fetcher
+from data import aggregate
 
 
+START_DT = settings.START_DT
+END_DT
 # Let's start in main.py showing some wrapper patterns and depicting method attributes.
 # Explore with pushes and pulls and view on GitHub!
 # git remote add new_origin https://github.com/mowglu/MIAE-Python and then use git pull new_origin <<commit>>
@@ -23,9 +26,11 @@ def main_wrapper():
 
     #4. Finish API fetcher. Also add some data folders in gitignore. Like data_to_ignore (with sample example) Also utils example
 
-    #5. Fixed Dataset
+    #5. Need to introduce fixed dataset (link). Adding data_ignore to env
     flight_list_fixed = aggregate.fixed_dataset()
 
+    # EXAMPLE 2:
+    #6.
     print("This is the end of our python project")
 
 
