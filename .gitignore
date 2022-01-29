@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 __pychache__
 *.log
 *.out
 *.pdf
+=======
+__pycache__
+*.log
+*.out
+*.pdf
+>>>>>>> b8e781c3b109359a4b1f69e7becb64937ebbbdf3
